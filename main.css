@@ -29,11 +29,17 @@ h4 {
 
 p {
     color: #6B708D;
+    line-height: 30px;
+    font-size: 20px;
 }
 
-/*bodyIntroRegular
-bodyIntroMedium
-headlineRegular*/
+.title {
+    color: #292E47;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
 
 .navBar .menu .headlineMedium {
     font-family: roboto;
@@ -56,14 +62,14 @@ captionSmall*/
 
 body {
     background-color: #F4F6FC;
-    margin-left: 10%;
-    margin-right: 10%;
+margin: 0;
     font-size: 16xp;
     -webkit-font-smoothing: antialised
 }
 
 nav {
-    
+    margin-left: 10%;
+    margin-right: 10%; 
 }
 
 .menu {
@@ -97,9 +103,10 @@ nav {
 #hero-section {
     display: flex;
     justify-content: space-between;
-    align-items: ;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: calc(100vh - 60px)
 }
 
 #hero-section .heroContentText {
@@ -111,28 +118,47 @@ width: 50%;
 width: 50%;
 }
 
-.AllImages  {
+#hero-section .heroContentImg .AllImages  {
     display: flex;
-    justify-content: space-between;
-    justify-content:center;
+    justify-content: center;
+    justify-items: center;
+    width: 570px;
 }
 
 #hero-section .heroContentImg .AllImages .heroImage {
     display: flex;
     position: absolute;
-    width: 400px;
+height: 500px;
+  
 }
 
-#logos  {
+.heroContentImg .AllImages .card1 {
+    display: flex;
+    align-self: flex-start;
+    justify-self: flex-start;
+    width: 190xp;
+}
+
+.heroContentImg .AllImages .card2 {
+    display: flex;
+    align-self: flex-end;
+    justify-self: flex-end;
+    width: 190xp;
+}
+
+
+#clients  {
     display: flex;
     justify-content: space-between;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-#logos .logo  {
+#clients .logo  {
     margin: 1rem;
-    height: 1rem;
+    height: 1.5rem;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
@@ -140,13 +166,14 @@ width: 50%;
 .siteCard {
     margin-top: 2rem auto;
     margin-bottom: 2rem auto;
-    max-width: calc(100% - 80px);
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .projectCard {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
-    gap: 2rem;
+    gap: 5%;
 }
 
 .cardImage {
@@ -189,51 +216,135 @@ color: #292E47;
     }
 
 
-.container .secondaryButton {
+.secondaryButton {
     display: block;
     text-decoration: none;
     color: #072AC8;
     font-size: 17px;
 }
 
-@media screen and (min-width: 768px) {
-    .siteCard {
-        max-width: 608px;
-    }
-    .articleCard {
-        display: grid;
-        grid-template-rows: 220px 1fr ;
-    }   
+
+.positionTestimonial {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    height: 600px;
+    background-color: #292E47;
+    background-image: url(/Sources/testimonial-section/orbit.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
 }
 
-@media screen and (mid-width: 1280px) {
-    .siteCard {
-        max-width: 1156px;
-    }
- 
+.testimonialText {
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+width: 100%;
+height: 100%;
+}
+
+.testimonialText .testimonialTitle {
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 8rem ;
+    padding-right: 8rem ;
 }
 
 
-/*.card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    display: flex;
-    justify-content: space-between;
-  }
-  
+.testimonialText .testimonialSubTitle {
+    color: #FFC600;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 8rem ;
+    padding-right: 8rem ;
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
+}
 
-  .container {
-    padding: 2px 16px;
+.allEmojis {
+   width: 100px;
+}
+
+.emoji1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8rem;
+    margin: 2rem;
+}
+
+.emoji2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8rem;
+    margin: 2rem;
+}
+
+.emoji3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 8rem;
+    margin: 2rem;
+}
+
+.emoji4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 8rem;
+    margin: 2rem;
+    
+}
+
+
+
+
+.icon {
+    background-color: #ecf7ff;
+    width: 80px;
+    height: 80px;
+    border-radius: 150px;
+}
+
+
+.icon .vectorIcon img {
+    margin: 20px;
+}
+
+.positionCards {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.positionCards .contentCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    gap: 5%;
+}
+
+
+.positionCards .contentCards .cardService {
     background-color: white;
-  }
+    padding:  2rem;
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
+}
 
-
-
-
-
+.AllCta {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-color: #FFC600;
+    height: 300px;
+    text-align: center;
+    padding-top: 8rem;
+    padding bottom: 8rem;
+    
+}
 
