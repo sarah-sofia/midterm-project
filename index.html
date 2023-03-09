@@ -8,38 +8,41 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+
     <nav>
-        <div class="navBar">
+      <div class="navBar">
+        <div class="contentNavBar">
           <div class="logoCircle" >
             <img class="logoImg" src="/Sources/logos/circle.svg">
           </div>
-            <div class="menu">
-              <a href="#home" class="headlineMedium">Home</a>
-              <a href="#projects" class="headlineMedium">Projects</a>
-              <a href="#services" class="headlineMedium">Services</a>
-            </div>
-            <div>
-                <a class="primaryButton" href="#contactUs">Contact Us</a>
-            </div>
+          <div class="menu">
+            <a href="#home" class="tertiaryButton">Home</a>
+            <a href="#projects" class="tertiaryButton">Projects</a>
+            <a href="#services" class="tertiaryButton">Services</a>
           </div>
-      </nav>
+          <div>
+            <a class="primaryButton" href="#contactUs">Contact Us</a>
+          </div>
+        </div>
+        </div>
+    </nav>
 
   <section id="hero-section">
 
-  <div class="heroContentText">
+  <div class="heroContentIzq">
     <h1 class="">Empower Your Business With Stunning Design!</h1>
-    <p>Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</p>
-    <a href="#SeeOurWork" class="See our work">Home</a>
-    <div>
+    <p>Circle is a digital design and development studio. <br> We design and develop astonishing websites and mobile apps.</p>
+    <div class="buttonsHero">
       <a class="primaryButton" href="#GetIntouch">Get in touch</a>
+      <a class="tertiaryButton" href="#SeeOurWork">See our work</a>
     </div>
   </div>
 
-  <div class="heroContentImg">
+  <div class="heroContentDer">
     <div class="AllImages">
     <img src="/Sources/hero-section/card-1.png" alt="card-1" class="card1">
     <img src="/Sources/hero-section/card-2.png" alt="card-2" class="card2">
-    <img src="/Sources/hero-section/hero-image.png" alt="hero-image" width="" class="heroImage">
+   
     </div>
   </div>
 </section>
@@ -62,7 +65,7 @@
 <section id="recent-projects">
 
   <div class="title">
-    <h4>Recent Priojects</h4>
+    <h3>Recent Projects</h3>
   </div>
 
   <div class="card">
@@ -82,22 +85,22 @@
 
         <article class="articleCard">
           <figure class="cardImage">
-            <img src="/Sources/projects-section/1.jpg" alt="Avatar" style="">
+            <img src="/Sources/projects-section/2.jpg" alt="Avatar" style="">
           </figure>
         <div class="container">
-          <h4 class="cardTitle"><b>Simplify</b></h4>
-          <p class="cardText">UI Design & App Development</p>
+          <h4 class="cardTitle"><b>Dashcoin</b></h4>
+          <p class="cardText">Web Development</p>
           <a class="secondaryButton" href="#learn more">Learn more</a>
         </article>
 
 
         <article class="articleCard">
           <figure class="cardImage">
-            <img src="/Sources/projects-section/1.jpg" alt="Avatar" style="">
+            <img src="/Sources/projects-section/3.jpg" alt="Avatar" style="">
           </figure>
         <div class="container">
-          <h4 class="cardTitle"><b>Simplify</b></h4>
-          <p class="cardText">UI Design & App Development</p>
+          <h4 class="cardTitle"><b>Vectorify</b></h4>
+          <p class="cardText">User Experience Design</p>
           <a class="secondaryButton" href="#learn more">Learn more</a>
         </article>
 
@@ -139,7 +142,7 @@
 <section id="services">
 
 <div class="title">
-  <h4>Our Services</h4>
+  <h3>Our Services</h3>
 </div>
 
 <div class="positionCards">
@@ -160,22 +163,22 @@
     <article class="cardService">
       <div class="icon">
         <div class="vectorIcon">
-        <img src="/Sources/services-section/icons/1.svg" alt="pluma-icon">
+        <img src="/Sources/services-section/icons/2.svg" alt="pluma-icon">
         </div>
       </div>
-      <h4>User Interface Design</h4>
-      <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
+      <h4>User Experience Design</h4>
+      <p>Circle always focuses on delivering the best user experience to your customers.</p>
       <a class="secondaryButton" href="#learn more">Learn more</a>
     </article>
 
     <article class="cardService">
       <div class="icon">
         <div class="vectorIcon">
-        <img src="/Sources/services-section/icons/1.svg" alt="pluma-icon">
+        <img src="/Sources/services-section/icons/3.svg" alt="pluma-icon">
         </div>
       </div>
-      <h4>User Interface Design</h4>
-      <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
+      <h4>Application Development</h4>
+      <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
       <a class="secondaryButton" href="#learn more">Learn more</a>
     </article>
 
@@ -205,27 +208,30 @@
 
 <footer>
 
-  <div class="LogoAddress">
-  <img src="/Sources/logos/circle.svg" alt="">
-<address>2972 Westheimer Rd. Santa Ana, Illinois 85486 </address>
-</div>
+  <div class="izqFooter">
+    <img class="logoImg" src="/Sources/logos/circle.svg" alt="">
+    <p class="address">2972 Westheimer Rd. Santa Ana, <br> Illinois 85486 </p>
+  </div>
 
-<div class="footerButtons">
-<div>
-  <a href="#Team" class="footerButton">Team</a>
-  <a href="#Press" class="footerButton">Press</a>
-</div>
+  <div class="derFooter">
+    <ul class="buttonList"> 
+      <li><a href="#Team" class="footerButton">Team</a></li>
+      <br><br><br>
+      <li><a href="#Press" class="footerButton">Press</a></li>
+    </ul>
 
-<div>
-  <a href="#Service" class="footerButton">Service</a>
-  <a href="#Project" class="footerButton">Project</a>
-</div>
+    <ul class="buttonList"> 
+      <li><a href="#Service" class="footerButton">Service</a></li>
+      <br><br><br>
+      <li><a href="#Project" class="footerButton">Project</a></li>
+    </ul>
 
-<div>
-  <a href="#AboutUs" class="footerButton">About Us</a>
-  <a href="#Privacy Policy" class="footerButton">Privacy Policy</a>
-</div>
-</div>
+    <ul class="buttonList"> 
+      <li><a href="#AboutUs" class="footerButton">About Us</a></li>
+      <br><br><br>
+      <li><a href="#Privacy Policy" class="footerButton">Privacy Policy</a></li>
+    </ul>
+  </div>
 
 </footer>
 
