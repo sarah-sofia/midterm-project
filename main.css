@@ -4,27 +4,39 @@
 
 * {
     font-family: roboto;
+
 }
 
 h1 {
     font-family: roboto;
     font-size: 60px;
+    color: #292E47;
 }
 
 h2 {
     font-family: roboto;
     font-size: 50px;
+    color: #292E47;
 }
 
 h3 {
     font-family: roboto;
     font-size: 40px;
+    color: #292E47;
 }
 
 h4 {
     font-family: roboto;
     font-size: 24px;
     font-weight: 500;
+    color: #292E47;
+  }
+
+h5 {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 400;
+    color: #292E47;
   }
 
 p {
@@ -94,10 +106,12 @@ nav {
     background-color: #072AC8;
     color: white;
     text-decoration: none;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 2rem;
+    padding-right: 2rem;
     padding-top: 15px;
     padding-bottom: 15px;
+    font-size: 17xp;
+    font-weight: 500;
 }
 
 #hero-section {
@@ -341,10 +355,67 @@ height: 100%;
     margin-top: 4rem;
     margin-bottom: 4rem;
     background-color: #FFC600;
-    height: 300px;
+    height: 400px;
     text-align: center;
     padding-top: 8rem;
     padding bottom: 8rem;
     
 }
 
+.AllCta .CTAButtons input {
+    background: url(/Sources/newsletter/icon/mail.svg) no-repeat 24px 24px;
+    padding-left:64px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    border-style: none;
+    width: 24rem;
+    height: 19px;
+    font-size: 17xp;
+    font-weight: 400;
+}
+
+.AllCta .CTAButtons .primaryButton  {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.CTAButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.AllCta h3{
+    margin: 1rem;
+    
+}
+
+.AllCta h5{
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    
+}
+
+footer {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .AllfooterButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footerButton {
+    text-decoration: none;
+    display: flex;
+
+}
