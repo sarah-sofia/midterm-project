@@ -6,44 +6,56 @@
     font-family: roboto;
 
 }
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #F4F6FC;
+    margin-top: 30px;
+    margin: 0;
+    font-size: 16px;
+}
+
+
 
 h1 {
     font-family: roboto;
-    font-size: 60px;
+    font-size: 3.75rem;
     color: #292E47;
 }
 
 h2 {
     font-family: roboto;
-    font-size: 50px;
+    font-size: 3.125rem;
     color: #292E47;
 }
 
 h3 {
     font-family: roboto;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     color: #292E47;
 }
 
 h4 {
     font-family: roboto;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     color: #292E47;
   }
 
 h5 {
     font-family: roboto;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     color: #292E47;
   }
 
 p {
     color: #6B708D;
-    line-height: 30px;
-    font-size: 20px;
+    line-height: 1.875rem;
+    font-size: 1.25rem;
 }
 
 .title {
@@ -53,14 +65,7 @@ p {
 }
 
 
-body {
-    background-color: #F4F6FC;
-    margin-top: 30px;
-    margin: 0;
-    font-size: 16xp;
-    -webkit-font-smoothing: antialised
 
-}
 
 .topMargin {
 height: 30%;
@@ -105,10 +110,8 @@ height: 30%;
     border-bottom: 2px solid #F4F6FC;
 }
 
-nav {
-  
 
-}
+
 
 
 
@@ -128,10 +131,8 @@ nav {
     padding-bottom: 2rem ;
     background-color: #F4F6FC;
     width: 100%;
-    
-
-
 }
+
 
 
 
@@ -141,8 +142,8 @@ nav {
     text-decoration: none;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-size: 17xp;
     font-weight: 500;
 }
@@ -159,7 +160,7 @@ nav {
     margin-right: 10%;
     margin-top: 10rem;
     margin-bottom: 8rem;
-    height: calc(100vh - 60px)
+    height: calc(100vh - 3.75rem)
 }
 
 .heroContentIzq {
@@ -173,18 +174,16 @@ width: 40%;
 
 .heroContentDer {
 width: 50%;
-height: 680px;
+height: 100%;
 background-image: url(/Sources/hero-section/hero-image.png);
-background-size: cover;
+background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
 position: relative;
 }
 
 
-.heroImage {
-    width: 100%;
-}
+
 
 
 .AllImages {
@@ -197,7 +196,8 @@ height: 100%;
     top: 5%;
     left: 0;
     box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
-    border-radius: 30px;
+    border-radius: 1.875rem;
+    width: 30%;
 }
 
 .heroContentDer .card2 {
@@ -205,9 +205,9 @@ height: 100%;
     bottom: 0;
     right: 0;
     box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);  
-    border-radius: 30px;
+    border-radius: 1.875rem;
+    width: 30%;
     }
-
 
 
 
@@ -423,38 +423,36 @@ height: 100%;
     margin-top: 4rem;
     margin-bottom: 4rem;
     background-color: #FFC600;
-    height: 400px;
+    height: 25rem;
     text-align: center;
     padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
     
 }
 
 .AllCta .CTAButtons input {
     background: url(/Sources/newsletter/icon/mail.svg) no-repeat 24px 24px;
-    padding-left:64px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-left:4rem;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
     background-color: white;
     border-style: none;
-    width: 24rem;
-    height: 19px;
-    font-size: 17xp;
+    width: 30%;
+    height: 1.1875rem;
     font-weight: 400;
+
 }
 
 .AllCta .CTAButtons .primaryButton  {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
     padding-left: 4rem;
     padding-right: 4rem;
+    margin-left: 1rem;
 }
 
 .CTAButtons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+ 
 }
 
 .AllCta h3{
@@ -504,7 +502,7 @@ footer .derFooter .buttonList {
 .footerButton {
     text-decoration: none;
     font-family: roboto;
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 500;
     color: #6B708D;
 }
@@ -547,7 +545,7 @@ footer .derFooter .buttonList {
 
 
 input  {
-    width: 00%;
+    
     padding-top: 22px;
     padding-bottom: 22px;
     padding-left: 20px;
@@ -576,14 +574,186 @@ label {
 }
 
 .fphone {
-    width: 100%;
+    width: 40%;
 }
 
 .femail{
-    width: 100%;
+    width: 40%;
 }
 
 .fname {
     width: 100%;
 }
+
+
+.contentFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentFlexRight {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contentFlexLeft {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.contentFlexRight input {
+    width: 90%;
+}
+
+.contentFlexLeft input {
+    width: 90%;
+ 
+}
+
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 14px;
+    }
+    }
+
+
+
+@media (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+
+    #hero-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .heroContentIzq {
+        width: 100%;
+        }
+
+    .heroContentDer {
+
+      width: 100%;
+       
+    }
+    #clients  {
+        display: flex;
+        flex-direction: column;
+    }
+    #clients .logo  {
+        margin: 2rem;
+    }
+    
+
+
+@media (max-width: 392px) {
+    html {
+        font-size: 12px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contentNavBar {
+        rgba(244,246,252, 0.5)
+    }
+
+    #hero-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 900px;
+        margin-bottom: 4rem;
+      
+    }
+
+    .AllImages {
+        height: 80vw;
+    
+    }
+
+    .heroContentIzq {
+        width: 100%;
+   
+        }
+
+    .heroContentDer {
+        width: 100%; 
+        margin-top: 4rem;
+      
+
+    }
+
+    .heroContentDer .card1 {
+        width: 
+    }
+
+    .heroContentDer .card2 {
+        width: 
+    }
+
+
+    #clients  {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    #clients .logo  {
+        margin: 2rem;
+    }
+
+    .testimonialText .testimonialTitle {
+        padding-left: 3rem ;
+        padding-right: 3rem ;
+    }
+
+    .testimonialText .testimonialSubTitle {
+        padding-left: 3rem ;
+        padding-right: 3rem ;
+    }
+
+
+
+
+
+    footer .izqFooter {
+        width: 80%;
+        margin: 0px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    footer .derFooter {
+        width: 0;
+    }
+    
+    footer .derFooter .buttonList {
+        padding-left: 0;
+        padding-right: 4rem;
+
+    
+    }
+        
+   
+    
+    
+}
+
+
+
 
