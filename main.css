@@ -14,7 +14,7 @@ body {
     background-color: #F4F6FC;
     margin-top: 30px;
     margin: 0;
-    font-size: 16px;
+    font-size: 
 }
 
 
@@ -266,8 +266,8 @@ height: 100%;
 }
 
 .articleCard:hover {
-  box-shadow: 0 10px 50px 0 rgba(204, 24, 192, 0.2);
-  cursor: pointer;  
+ /* box-shadow: 0 10px 50px 0 rgba(204, 24, 192, 0.2);
+  cursor: pointer; */
   
 }
 
@@ -280,6 +280,7 @@ height: 100%;
 .container .cardTitle {
 margin: auto;
 color: #292E47;
+font-weight: 700;
 }
 
 .container .cardText {
@@ -431,7 +432,7 @@ height: 100%;
 }
 
 .AllCta .CTAButtons input {
-    background: url(/Sources/newsletter/icon/mail.svg) no-repeat 24px 24px;
+    background: url(/Sources/newsletter/icon/mail.svg) no-repeat 1.5rem 1.5rem;
     padding-left:4rem;
     padding-top: 1.875rem;
     padding-bottom: 1.875rem;
@@ -652,7 +653,7 @@ label {
         margin: 2rem;
     }
     
-
+}
 
 @media (max-width: 392px) {
     html {
@@ -723,7 +724,39 @@ label {
         padding-right: 3rem ;
     }
 
+    .AllCta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     
+    }
 
+    .CTAButtons {
+height: ;
+    }
+
+    .AllCta .CTAButtons input {
+        padding-left:5rem;
+        padding-top: 1.875rem;
+        padding-bottom: 1.875rem;
+        width: 70%; 
+        background-color: white;
+        border-style: none;
+        height: 1.1875rem;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    .AllCta .CTAButtons .primaryButton  {
+        padding-top: 1.875rem;
+        padding-bottom: 1.875rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+     
+        margin-left: 0;
+        width: 40%;
+
+    }
 
 
 
@@ -749,7 +782,9 @@ label {
     
     }
         
-   
+    footer .derFooter .footerButton {
+        width: 1000px;
+    }
     
     
 }
