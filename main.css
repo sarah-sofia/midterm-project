@@ -17,8 +17,6 @@ body {
     font-size: 
 }
 
-
-
 h1 {
     font-family: roboto;
     font-size: 3.75rem;
@@ -64,17 +62,13 @@ p {
     margin-right: 10%;
 }
 
-
-
-
 .topMargin {
-height: 30%;
+    height: 30%;
 }
-
 
 .tertiaryButton {
     font-family: roboto;
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 500;
     color: #6B708D;
     text-decoration: none;
@@ -98,12 +92,9 @@ height: 30%;
     
 }
 
-
-
 .menu {
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 .menu:hover {
@@ -111,16 +102,11 @@ height: 30%;
 }
 
 
-
-
-
-
 .navBar {
     z-index: 1;
     position: fixed;
     top: 0;
     width: 100%;
-
 }
 
 .navBar .contentNavBar {
@@ -171,19 +157,15 @@ width: 40%;
     margin-top: 4rem;
 }
 
-
 .heroContentDer {
-width: 50%;
-height: 100%;
-background-image: url(/Sources/hero-section/hero-image.png);
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center;
-position: relative;
+    width: 50%;
+    height: 100%;
+    background-image: url(/Sources/hero-section/hero-image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
 }
-
-
-
 
 
 .AllImages {
@@ -208,11 +190,6 @@ height: 100%;
     border-radius: 1.875rem;
     width: 30%;
     }
-
-
-
-
-
 
 #clients  {
     display: flex;
@@ -244,7 +221,8 @@ height: 100%;
 
 .projectCard {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
     gap: 5%;
 }
 
@@ -266,9 +244,7 @@ height: 100%;
 }
 
 .articleCard:hover {
- /* box-shadow: 0 10px 50px 0 rgba(204, 24, 192, 0.2);
-  cursor: pointer; */
-  
+  cursor: pointer; 
 }
 
 .container {
@@ -278,15 +254,14 @@ height: 100%;
 
 
 .container .cardTitle {
-margin: auto;
-color: #292E47;
-font-weight: 700;
+    margin: auto;
+    color: #292E47;
+    font-weight: 700;
 }
 
 .container .cardText {
     margin-bottom: 4rem;
-    }
-
+}
 
 .secondaryButton {
     display: block;
@@ -294,7 +269,6 @@ font-weight: 700;
     color: #072AC8;
     font-size: 17px;
 }
-
 
 #testimonial {
     margin-top: 12rem;
@@ -306,7 +280,7 @@ font-weight: 700;
     margin-right: 5%;
     margin-top: 4rem;
     margin-bottom: 4rem;
-    height: 600px;
+    height: 37.5rem;
     background-color: #292E47;
     background-image: url(/Sources/testimonial-section/orbit.png);
     background-size: cover;
@@ -316,12 +290,12 @@ font-weight: 700;
 }
 
 .testimonialText {
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-width: 100%;
-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
 }
 
 .testimonialText .testimonialTitle {
@@ -376,11 +350,7 @@ height: 100%;
     right: 0;
     width: 8rem;
     margin: 2rem;
-    
 }
-
-
-
 
 .icon {
     background-color: #ecf7ff;
@@ -401,7 +371,8 @@ height: 100%;
 
 .positionCards .contentCards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
     gap: 5%;
 }
 
@@ -452,9 +423,6 @@ height: 100%;
     margin-left: 1rem;
 }
 
-.CTAButtons {
- 
-}
 
 .AllCta h3{
     margin: 1rem;
@@ -470,8 +438,8 @@ height: 100%;
 footer {
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 120px;
-    margin-top: 100px;
+    margin-bottom: 7.5rem;
+    margin-top: 6.25rem;
     display: flex;
     justify-content: space-between;
 }
@@ -543,10 +511,12 @@ footer .derFooter .buttonList {
 }
 
 
-
+.formcontent {
+    
+  
+}
 
 input  {
-    
     padding-top: 22px;
     padding-bottom: 22px;
     padding-left: 20px;
@@ -556,63 +526,46 @@ input  {
     font-size: 17px;
     margin-bottom: 2rem;
     margin-top: 1rem;
+    width: 100%;
+    box-sizing: border-box; 
 }
 
 label {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #6B708D;
 }
 
-#contact-Us .primaryButton {
-    height: 4rem;
-    background-color: #072AC8;
-    width: 100%;
-}
 
-.fmessage{
-    width: 100%;
-    padding-bottom: 8rem;
-}
-
-.fphone {
-    width: 40%;
-}
-
-.femail{
-    width: 40%;
-}
-
-.fname {
-    width: 100%;
-}
 
 
 .contentFlex {
     display: flex;
     justify-content: space-between;
+    gap: 3rem
+;
 }
 
 .contentFlexRight {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    width: 100%;
+
 }
 
 .contentFlexLeft {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    width: 100%;
+
 }
 
 .contentFlexRight input {
-    width: 90%;
+    width: 100%;
 }
 
 .contentFlexLeft input {
-    width: 90%;
- 
+    width: 100%;
+}
+
+.formcontent .primaryButton {
+
+
 }
 
 
@@ -626,47 +579,41 @@ label {
 
 @media (max-width: 768px) {
     html {
-        font-size: 12px;
+        font-size: 14px;
     }
 
-    #hero-section {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
+    body{
+        background-color: #292E47;
     }
 
-    .heroContentIzq {
-        width: 100%;
-        }
-
-    .heroContentDer {
-
-      width: 100%;
-       
-    }
-    #clients  {
-        display: flex;
-        flex-direction: column;
-    }
-    #clients .logo  {
-        margin: 2rem;
-    }
-    
-}
-
-@media (max-width: 392px) {
-    html {
-        font-size: 12px;
+    h1 {
+        color: white;
     }
 
-    .menu {
-        display: flex;
-        flex-direction: column;
+    h3 {
+        color: white;
     }
 
-    .contentNavBar {
-        rgba(244,246,252, 0.5)
+    p {
+        color: white;
+    }
+
+    .primaryButton {
+        border-radius: 8px;
+        box-shadow: 0 4px 20px 0 rgba(0, 1, 3, 0.2);
+    }
+
+    .tertiaryButton {
+        color: white;
+        border-bottom: 1px white;
+    }
+
+    .navBar .contentNavBar {
+        background-color: rgba(41,46,71, 0.9)
+    }
+
+    .logoImg {
+        filter: brightness(400%);
     }
 
     #hero-section {
@@ -675,6 +622,182 @@ label {
         justify-content: center;
         height: 900px;
         margin-bottom: 4rem;
+        margin-top: 8rem;   
+    }
+
+    .AllImages {
+        height: 80vw;
+    
+    }
+
+    .heroContentIzq {
+        width: 100%;
+   
+        }
+
+    .heroContentDer {
+        width: 100%; 
+        margin-top: 4rem;
+    }
+
+
+    #clients  {
+        margin-top: 12rem;
+        margin-bottom: 4rem;
+      
+    }
+    #clients .logo  {
+        margin: 2rem;
+        filter: brightness(200%) ;
+    }
+
+    #projects {
+        margin-top: 6rem;
+    }
+
+    .articleCard {
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .articleCard p {
+        color: black;
+    }
+
+    .cardService p {
+        color: black;
+    }
+
+    .positionTestimonial {
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .testimonialText .testimonialTitle {
+        padding-left: 3rem ;
+        padding-right: 3rem ;
+    }
+
+    .testimonialText .testimonialSubTitle {
+        padding-left: 3rem ;
+        padding-right: 3rem ;
+    }
+
+
+    #CTA {
+        margin-top: 12rem;
+        margin-bottom: 6rem;
+    }
+
+    .AllCta .CTAButtons input {
+    border-radius: 8px;
+    }
+
+    .AllCta h3 {
+        color: #292E47;
+    }
+
+    footer .derFooter .footerButton {
+        color: white;
+    }
+    
+    .address {
+        color: white;
+    }
+    
+/*PROJECT HERE*/
+    
+    #project h1 {
+        margin-top: 8rem;
+        }
+
+    #project p  {
+        color: white;
+    }
+
+    #project h4 {
+        color: white;
+    }
+
+    #project h5 {
+        color: white;
+    }
+
+    #contact-Us {
+        margin-top: 8rem;
+       
+      }
+  
+    /*CONTACT-US HERE*/
+
+    input  {
+        background-color: #383d57;
+        border-radius: 8px;
+        border-color: #4f5883;
+        border-style: outset;
+    }
+  
+      label {
+          color: #ffffff;
+      }
+
+
+}
+
+@media (max-width: 392px) {
+    html {
+        font-size: 12px;
+    }
+
+    body{
+        background-color: #292E47;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    h3 {
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+
+    .primaryButton {
+        border-radius: 8px;
+        box-shadow: 0 4px 20px 0 rgba(0, 1, 3, 0.2);
+    }
+
+    .tertiaryButton {
+        color: white;
+        border-bottom: 1px white;
+    }
+
+    .menu {
+        display: none;
+       /* display: flex;
+        flex-direction: column;*/
+    }
+
+    .navBar {
+        
+    }
+
+    .navBar .contentNavBar {
+        background-color: rgba(41,46,71, 0.9)
+    }
+
+    .logoImg {
+        filter: brightness(400%);
+    }
+
+    #hero-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 900px;
+        margin-bottom: 4rem;
+        margin-top: 5rem;
       
     }
 
@@ -691,16 +814,6 @@ label {
     .heroContentDer {
         width: 100%; 
         margin-top: 4rem;
-      
-
-    }
-
-    .heroContentDer .card1 {
-        width: 
-    }
-
-    .heroContentDer .card2 {
-        width: 
     }
 
 
@@ -709,9 +822,27 @@ label {
         flex-direction: column;
         margin-top: 2rem;
         margin-bottom: 2rem;
+      
     }
     #clients .logo  {
         margin: 2rem;
+        filter: brightness(200%) ;
+    }
+
+    #projects {
+        margin-top: 6rem;
+    }
+
+    .articleCard {
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .articleCard p {
+        color: black;
+    }
+
+    .cardService p {
+        color: black;
     }
 
     .testimonialText .testimonialTitle {
@@ -724,15 +855,26 @@ label {
         padding-right: 3rem ;
     }
 
+    .positionTestimonial {
+
+    }
+
     .AllCta {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+   height: 30rem;
      
     }
 
     .CTAButtons {
-height: ;
+    height: 40%;
+    }
+
+    .CTAButtons .primaryButton {
+        margin-top: 2rem;
+    }
+
+    #CTA {
+        margin-top: 12rem;
+        margin-bottom: 6rem;
     }
 
     .AllCta .CTAButtons input {
@@ -758,16 +900,19 @@ height: ;
 
     }
 
-
+    .AllCta h3 {
+        color: #292E47;
+    }
 
     footer .izqFooter {
-        width: 80%;
-        margin: 0px;
+        width: 100%;
+  
     }
 
     footer {
         display: flex;
         flex-direction: column;
+        margin-top: 4rem;
         
     }
 
@@ -777,16 +922,54 @@ height: ;
     
     footer .derFooter .buttonList {
         padding-left: 0;
-        padding-right: 4rem;
-
-    
+        padding-right: 4rem; 
     }
         
     footer .derFooter .footerButton {
-        width: 1000px;
+        color: white;
     }
     
+    .address {
+        color: white;
+    }
+
+/*PROJECT HERE*/
     
+    #project h1 {
+           margin-top: 8rem;
+        }
+
+    #project p {
+        color: white;
+    }
+
+    #project h4 {
+        color: white;
+    }
+
+    #project h5 {
+        color: white;
+    }
+
+/*CONTACT-US HERE*/
+    
+    #contact-Us {
+      margin-top: 8rem;
+     
+    }
+
+
+    input  {
+        background-color: #383d57;
+        border-radius: 8px;
+        border-color: #4f5883;
+        border-style: outset;
+      }
+
+    label {
+        color: #ffffff;
+    }
+
 }
 
 
