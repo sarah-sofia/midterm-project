@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MidtermProject</title>
-    <link rel="stylesheet" href="main.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="/main.css">
+    <script src="/index.js"></script> 
+</head>
+<body>
+
     <nav>
       <div class="navBar">
         <div class="contentNavBar">
-          <div class="logoCircle">
+          <a href="/index.html" class="logoCircle">
             <img class="logoImg" src="/Sources/logos/circle.svg" />
-          </div>
+          </a>
           <div class="menu">
             <a href="#home" class="tertiaryButton">Home</a>
             <a href="#projects" class="tertiaryButton">Projects</a>
@@ -23,254 +25,212 @@
             <a class="primaryButton" href="/Contact-Us/contactUs.html">Contact Us</a>
           </div>
         </div>
-      </div>
+        </div>
     </nav>
 
-    <section id="hero-section">
-      <div class="heroContentIzq">
-        <h1 class="">Empower Your Business With Stunning Design!</h1>
-        <p>
-          Circle is a digital design and development studio. <br />
-          We design and develop astonishing websites and mobile apps.
-        </p>
-        <div class="buttonsHero">
-          <a class="primaryButton" href="/Contact-Us/contactUs.html">Get in touch</a>
-          <a class="tertiaryButton" href="">See our work</a>
+  <section id="hero-section">
+
+  <div class="heroContentIzq">
+    <h1 class="">Empower Your Business With Stunning Design!</h1>
+    <p>Circle is a digital design and development studio. <br> We design and develop astonishing websites and mobile apps.</p>
+    <div class="buttonsHero">
+      <a class="primaryButton" href="#GetIntouch">Get in touch</a>
+      <a class="tertiaryButton" href="#SeeOurWork">See our work</a>
+    </div>
+  </div>
+
+  <div class="heroContentDer">
+    <div class="AllImages">
+    <img src="/Sources/hero-section/card-1.png" alt="card-1" class="card1">
+    <img src="/Sources/hero-section/card-2.png" alt="card-2" class="card2">
+   
+    </div>
+  </div>
+</section>
+
+
+
+<section id="clients">
+  <img src="/Sources/logos/airbnb-logo.svg" alt="airbnb-logo" class="logo">
+  <img src="/Sources/logos/amazon-logo.svg" alt="amazon-logo" class="logo">
+  <img src="/Sources/logos/fedex-logo.svg" alt="fedex-logo" class="logo">
+  <img src="/Sources/logos/google-logo.svg" alt="google-logo" class="logo">
+  <img src="/Sources/logos/microsoft-logo.svg" alt="microsoft-logo" class="logo">
+</section>
+
+
+
+
+
+
+<section id="projects">
+
+  <div class="title">
+    <h3>Recent Projects</h3>
+  </div>
+
+  <div class="card">
+    
+  
+    <div class="siteCard">
+      <div class="projectCard">
+          <article class="articleCard">
+            <figure class="cardImage">
+              <img id="cardProject1Img"  alt="Avatar" style="">
+            </figure>
+          <div class="container">
+            <h4 class="cardTitle" id="cardProject1Name">cardProject1Name</h4>
+            <p class="cardText" id="cardProject1Description">cardProject1Description</p>
+            <a class="secondaryButton" id="cardProject1Link" href="/project/project.html">Learn more</a>
+          </article>
+          <article class="articleCard">
+            <figure class="cardImage">
+              <img id="cardProject2Img" alt="Avatar" style="">
+            </figure>
+          <div class="container">
+            <h4 class="cardTitle" id="cardProject2Name">cardProject2Name</h4>
+            <p class="cardText" id="cardProject2Description">cardProject2Description</p>
+            <a class="secondaryButton" id="cardProject2Link" href="/project/project.html">Learn more</a>
+          </article>
+          <article class="articleCard">
+            <figure class="cardImage">
+              <img id="cardProject3Img" alt="Avatar" style="">
+            </figure>
+          <div class="container">
+            <h4 class="cardTitle" id="cardProject3Name"><b>cardProject3Name</b></h4>
+            <p class="cardText" id="cardProject3Description">cardProject3Description</p>
+            <a class="secondaryButton" id="cardProject3Link" href="/project/project.html">Learn more</a>
+          </article>
         </div>
-      </div>
+      
+    </div>
+      
 
-      <div class="heroContentDer">
-        <div class="AllImages">
-          <img
-            src="/Sources/hero-section/card-1.png"
-            alt="card-1"
-            class="card1"
-          />
-          <img
-            src="/Sources/hero-section/card-2.png"
-            alt="card-2"
-            class="card2"
-          />
-        </div>
-      </div>
-    </section>
+  </div>
+</section>
 
-    <section id="clients">
-      <img
-        src="/Sources/logos/airbnb-logo.svg"
-        alt="airbnb-logo"
-        class="logo"
-      />
-      <img
-        src="/Sources/logos/amazon-logo.svg"
-        alt="amazon-logo"
-        class="logo"
-      />
-      <img src="/Sources/logos/fedex-logo.svg" alt="fedex-logo" class="logo" />
-      <img
-        src="/Sources/logos/google-logo.svg"
-        alt="google-logo"
-        class="logo"
-      />
-      <img
-        src="/Sources/logos/microsoft-logo.svg"
-        alt="microsoft-logo"
-        class="logo"
-      />
-    </section>
 
-    <section id="projects">
-      <div class="title">
-        <h3>Recent Projects</h3>
-      </div>
 
-      <div class="card">
-        <div class="siteCard">
-          <div class="projectCard">
-            <article class="articleCard">
-              <figure class="cardImage">
-                <img
-                  src="/Sources/projects-section/1.jpg"
-                  alt="Avatar"
-                  style=""
-                />
-              </figure>
-              <div class="container">
-                <h4 class="cardTitle">Simplify</h4>
-                <p class="cardText">UI Design & App Development</p>
-                <a class="secondaryButton" href="/project/project.html">Learn more</a>
-              </div>
-            </article>
 
-            <article class="articleCard">
-              <figure class="cardImage">
-                <img
-                  src="/Sources/projects-section/2.jpg"
-                  alt="Avatar"
-                  style=""
-                />
-              </figure>
-              <div class="container">
-                <h4 class="cardTitle">Dashcoin</h4>
-                <p class="cardText">Web Development</p>
-                <a class="secondaryButton" href="#learn more">Learn more</a>
-              </div>
-            </article>
 
-            <article class="articleCard">
-              <figure class="cardImage">
-                <img
-                  src="/Sources/projects-section/3.jpg"
-                  alt="Avatar"
-                  style=""
-                />
-              </figure>
-              <div class="container">
-                <h4 class="cardTitle">Vectorify</h4>
-                <p class="cardText">User Experience Design</p>
-                <a class="secondaryButton" href="#learn more">Learn more</a>
-              </div>
-            </article>
+<section id="testimonial">
+
+  <div class="positionTestimonial">
+
+
+          <div class="testimonialText">
+            <h3 class="testimonialTitle">Hear What Our Clients Have to Say</h3>
+            <h4 class="testimonialSubTitle">“Circle helped us through every stage of our startup. We really enjoyed working with you.”</h4>
           </div>
+    
+      <img class="emoji1" src="/Sources/testimonial-section/memoji-1.png" alt="">
+      <img class="emoji2" src="/Sources/testimonial-section/memoji-2.png" alt="">
+      <img class="emoji3" src="/Sources/testimonial-section/memoji-3.png" alt="">
+      <img class="emoji4" src="/Sources/testimonial-section/memoji-4.png" alt="">
+
+  </div>
+
+</section>
+
+
+
+
+
+<section id="services">
+
+<div class="title">
+  <h3>Our Services</h3>
+</div>
+
+<div class="positionCards">
+
+  <div class="contentCards">
+
+    <article class="cardService">
+      <div class="icon">
+        <div class="vectorIcon">
+        <img src="/Sources/services-section/icons/1.svg" alt="pluma-icon">
         </div>
       </div>
-    </section>
+      <h4>User Interface Design</h4>
+      <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
+      <a class="secondaryButton" href="#learn more">Learn more</a>
+    </article>
 
-    <section id="testimonial">
-      <div class="positionTestimonial">
-        <div class="testimonialText">
-          <h3 class="testimonialTitle">Hear What Our Clients Have to Say</h3>
-          <h4 class="testimonialSubTitle">
-            “Circle helped us through every stage of our startup. We really
-            enjoyed working with you.”
-          </h4>
-        </div>
-
-        <img
-          class="emoji1"
-          src="/Sources/testimonial-section/memoji-1.png"
-          alt=""
-        />
-        <img
-          class="emoji2"
-          src="/Sources/testimonial-section/memoji-2.png"
-          alt=""
-        />
-        <img
-          class="emoji3"
-          src="/Sources/testimonial-section/memoji-3.png"
-          alt=""
-        />
-        <img
-          class="emoji4"
-          src="/Sources/testimonial-section/memoji-4.png"
-          alt=""
-        />
-      </div>
-    </section>
-
-    <section id="services">
-      <div class="title">
-        <h3>Our Services</h3>
-      </div>
-
-      <div class="positionCards">
-        <div class="contentCards">
-          <article class="cardService">
-            <div class="icon">
-              <div class="vectorIcon">
-                <img
-                  src="/Sources/services-section/icons/1.svg"
-                  alt="pluma-icon"
-                />
-              </div>
-            </div>
-            <h4>User Interface Design</h4>
-            <p>
-              Circle provides you with a stunning user interface design that is
-              accessible to everyone.
-            </p>
-            <a class="secondaryButton" href="#learn more">Learn more</a>
-          </article>
-
-          <article class="cardService">
-            <div class="icon">
-              <div class="vectorIcon">
-                <img
-                  src="/Sources/services-section/icons/2.svg"
-                  alt="pluma-icon"
-                />
-              </div>
-            </div>
-            <h4>User Experience Design</h4>
-            <p>
-              Circle always focuses on delivering the best user experience to
-              your customers.
-            </p>
-            <a class="secondaryButton" href="#learn more">Learn more</a>
-          </article>
-
-          <article class="cardService">
-            <div class="icon">
-              <div class="vectorIcon">
-                <img
-                  src="/Sources/services-section/icons/3.svg"
-                  alt="pluma-icon"
-                />
-              </div>
-            </div>
-            <h4>Application Development</h4>
-            <p>
-              We develop high-quality mobile and web applications using the
-              latest technology stack.
-            </p>
-            <a class="secondaryButton" href="#learn more">Learn more</a>
-          </article>
+    <article class="cardService">
+      <div class="icon">
+        <div class="vectorIcon">
+        <img src="/Sources/services-section/icons/2.svg" alt="pluma-icon">
         </div>
       </div>
-    </section>
+      <h4>User Experience Design</h4>
+      <p>Circle always focuses on delivering the best user experience to your customers.</p>
+      <a class="secondaryButton" href="#learn more">Learn more</a>
+    </article>
 
-    <section id="CTA">
-      <div class="AllCta">
-        <h3>Do you have any questions?</h3>
-        <h5>Let us help you!</h5>
-        <div class="CTAButtons">
-          <input type="email" value placeholder="Enter your email" />
-          <a class="primaryButton" href="#Subscribe">Subscribe</a>
+    <article class="cardService">
+      <div class="icon">
+        <div class="vectorIcon">
+        <img src="/Sources/services-section/icons/3.svg" alt="pluma-icon">
         </div>
       </div>
-    </section>
+      <h4>Application Development</h4>
+      <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
+      <a class="secondaryButton" href="#learn more">Learn more</a>
+    </article>
 
-    <footer>
-      <div class="izqFooter">
-        <img class="logoImg" src="/Sources/logos/circle.svg" alt="" />
-        <p class="address">
-          2972 Westheimer Rd. Santa Ana, <br />
-          Illinois 85486
-        </p>
-      </div>
+  </div>
 
-      <div class="derFooter">
-        <ul class="buttonList">
-          <li><a href="#Team" class="footerButton">Team</a></li>
-          <br /><br /><br />
-          <li><a href="#Press" class="footerButton">Press</a></li>
-        </ul>
+</div>
 
-        <ul class="buttonList">
-          <li><a href="#Service" class="footerButton">Service</a></li>
-          <br /><br /><br />
-          <li><a href="#Project" class="footerButton">Project</a></li>
-        </ul>
+</section>
 
-        <ul class="buttonList">
-          <li><a href="#AboutUs" class="footerButton">About Us</a></li>
-          <br /><br /><br />
-          <li>
-            <a href="#Privacy Policy" class="footerButton">Privacy Policy</a>
-          </li>
-        </ul>
-      </div>
-    </footer>
-  </body>
+
+
+
+<section id="CTA">
+
+<div class="AllCta">
+<h3>Do you have any questions?</h3>
+<h5>Let us help you!</h5>
+  <div class="CTAButtons">
+    <input type="email" value placeholder="Enter your email">
+    <a class="primaryButton" href="#Subscribe">Subscribe</a>
+  </div>
+</div>
+
+</section>
+
+
+
+<footer>
+
+  <div class="izqFooter">
+    <img class="logoImg" src="/Sources/logos/circle.svg" alt="">
+    <p class="address">2972 Westheimer Rd. Santa Ana, <br> Illinois 85486 </p>
+  </div>
+
+  <div class="derFooter">
+    <ul class="buttonList"> 
+      <li><a href="#Team" class="footerButton">Team</a></li>
+      <br><br><br>
+      <li><a href="#Press" class="footerButton">Press</a></li>
+    </ul>
+
+    <ul class="buttonList"> 
+      <li><a href="#Service" class="footerButton">Service</a></li>
+      <br><br><br>
+      <li><a href="#Project" class="footerButton">Project</a></li>
+    </ul>
+
+    <ul class="buttonList"> 
+      <li><a href="#AboutUs" class="footerButton">About Us</a></li>
+      <br><br><br>
+      <li><a href="#Privacy Policy" class="footerButton">Privacy Policy</a></li>
+    </ul>
+  </div>
+
+</footer>
+
+</body>
 </html>

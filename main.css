@@ -230,6 +230,7 @@ height: 100%;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    height: 240px;
 } 
 
 .cardImage img {
@@ -404,13 +405,12 @@ height: 100%;
 
 .AllCta .CTAButtons input {
     background: url(/Sources/newsletter/icon/mail.svg) no-repeat 1.5rem 1.5rem;
-    padding-left:4rem;
-    padding-top: 1.875rem;
-    padding-bottom: 1.875rem;
+    padding-left:4.5rem;
+    padding-top: 1.9rem;
+    padding-bottom: 1.9rem;
     background-color: white;
     border-style: none;
     width: 30%;
-    height: 1.1875rem;
     font-weight: 400;
 
 }
@@ -511,15 +511,10 @@ footer .derFooter .buttonList {
 }
 
 
-.formcontent {
-    
-  
-}
-
-input  {
-    padding-top: 22px;
-    padding-bottom: 22px;
-    padding-left: 20px;
+ input  {
+    padding-top: 1.375rem;
+    padding-bottom: 1.375rem;
+    padding-left: 1.25rem;
     border: none;
     border-radius: 0;
     background-color: #e7e9f1;
@@ -529,6 +524,8 @@ input  {
     width: 100%;
     box-sizing: border-box; 
 }
+
+
 
 label {
     font-size: 1.25rem;
@@ -728,18 +725,19 @@ label {
   
     /*CONTACT-US HERE*/
 
-    input  {
+    .formcontent input  {
         background-color: #383d57;
         border-radius: 8px;
         border-color: #4f5883;
         border-style: outset;
     }
-  
-      label {
-          color: #ffffff;
-      }
 
-
+    .formcontent label, .fphone, .femail, .fname, .fmessage {
+        color: #ffffff;
+    }
+    #submitButton {
+        background-color: #072AC8;
+    }
 }
 
 @media (max-width: 392px) {
@@ -884,9 +882,9 @@ label {
         width: 70%; 
         background-color: white;
         border-style: none;
-        height: 1.1875rem;
         font-weight: 400;
-        margin-bottom: 15px;
+   
+      
     }
 
     .AllCta .CTAButtons .primaryButton  {
@@ -933,6 +931,10 @@ label {
         color: white;
     }
 
+    #submitButton {
+        background-color: #072AC8;
+    }
+
 /*PROJECT HERE*/
     
     #project h1 {
@@ -959,14 +961,17 @@ label {
     }
 
 
-    input  {
+    .formcontent input  {
         background-color: #383d57;
         border-radius: 8px;
         border-color: #4f5883;
         border-style: outset;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        color: white;
       }
 
-    label {
+      .formcontent label, .fphone, .femail, .fname, .fmessage {
         color: #ffffff;
     }
 
