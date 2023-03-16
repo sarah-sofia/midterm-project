@@ -1,0 +1,982 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    font-family: roboto;
+
+}
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #F4F6FC;
+    margin-top: 30px;
+    margin: 0;
+    font-size: 
+}
+
+h1 {
+    font-family: roboto;
+    font-size: 3.75rem;
+    color: #292E47;
+}
+
+h2 {
+    font-family: roboto;
+    font-size: 3.125rem;
+    color: #292E47;
+}
+
+h3 {
+    font-family: roboto;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #292E47;
+}
+
+h4 {
+    font-family: roboto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #292E47;
+  }
+
+h5 {
+    font-family: roboto;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #292E47;
+  }
+
+p {
+    color: #6B708D;
+    line-height: 1.875rem;
+    font-size: 1.25rem;
+}
+
+.title {
+    color: #292E47;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.topMargin {
+    height: 30%;
+}
+
+.tertiaryButton {
+    font-family: roboto;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    color: #6B708D;
+    text-decoration: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.tertiaryButtonSelected {
+    font-family: roboto;
+    font-size: 17px;
+    font-weight: 500;
+    color: #072AC8;
+    text-decoration: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+.navBar .menu .tertiaryButton:hover {
+    color: #363d5f;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: center; 
+}
+
+.menu:hover {
+    border-bottom: 2px solid #F4F6FC;
+}
+
+
+.navBar {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navBar .contentNavBar {
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem ;
+    padding-bottom: 2rem ;
+    background-color: #F4F6FC;
+    width: 100%;
+}
+
+
+
+
+.primaryButton {
+    background-color: #072AC8;
+    color: white;
+    text-decoration: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 17xp;
+    font-weight: 500;
+}
+
+.primaryButton:hover {
+    background-color: #06196b;
+}
+
+#hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+    height: calc(100vh - 3.75rem)
+}
+
+.heroContentIzq {
+width: 40%;
+}
+
+.buttonsHero {
+    margin-top: 4rem;
+}
+
+.heroContentDer {
+    width: 50%;
+    height: 100%;
+    background-image: url(/Sources/hero-section/hero-image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+.AllImages {
+position: relative;
+height: 100%;
+}
+
+.heroContentDer .card1 {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
+    border-radius: 1.875rem;
+    width: 30%;
+}
+
+.heroContentDer .card2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);  
+    border-radius: 1.875rem;
+    width: 30%;
+    }
+
+#clients  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#clients .logo  {
+    margin: 1rem;
+    height: 1.5rem;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#projects {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+}
+
+.siteCard {
+    margin-top: 2rem auto;
+    margin-bottom: 2rem auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.projectCard {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+    gap: 5%;
+}
+
+.cardImage {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 240px;
+} 
+
+.cardImage img {
+    max-width: 100%;
+    height: auto;
+}
+
+.articleCard {
+    background-color: white;
+    transition: 0.3s;
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
+}
+
+.articleCard:hover {
+  cursor: pointer; 
+}
+
+.container {
+    padding: 2rem;
+
+}
+
+
+.container .cardTitle {
+    margin: auto;
+    color: #292E47;
+    font-weight: 700;
+}
+
+.container .cardText {
+    margin-bottom: 4rem;
+}
+
+.secondaryButton {
+    display: block;
+    text-decoration: none;
+    color: #072AC8;
+    font-size: 17px;
+}
+
+#testimonial {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+}
+
+.positionTestimonial {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    height: 37.5rem;
+    background-color: #292E47;
+    background-image: url(/Sources/testimonial-section/orbit.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.testimonialText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.testimonialText .testimonialTitle {
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 8rem ;
+    padding-right: 8rem ;
+}
+
+
+.testimonialText .testimonialSubTitle {
+    color: #FFC600;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 8rem ;
+    padding-right: 8rem ;
+
+}
+
+.allEmojis {
+   width: 100px;
+}
+
+.emoji1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8rem;
+    margin: 2rem;
+}
+
+.emoji2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8rem;
+    margin: 2rem;
+}
+
+.emoji3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 8rem;
+    margin: 2rem;
+}
+
+.emoji4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 8rem;
+    margin: 2rem;
+}
+
+.icon {
+    background-color: #ecf7ff;
+    width: 80px;
+    height: 80px;
+    border-radius: 150px;
+}
+
+
+.icon .vectorIcon img {
+    margin: 20px;
+}
+
+.positionCards {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.positionCards .contentCards {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+    gap: 5%;
+}
+
+
+.positionCards .contentCards .cardService {
+    background-color: white;
+    padding:  2rem;
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
+}
+
+#CTA {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+}
+
+
+.AllCta {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-color: #FFC600;
+    height: 25rem;
+    text-align: center;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    
+}
+
+.AllCta .CTAButtons input {
+    background: url(/Sources/newsletter/icon/mail.svg) no-repeat 1.5rem 1.5rem;
+    padding-left:4.5rem;
+    padding-top: 1.9rem;
+    padding-bottom: 1.9rem;
+    background-color: white;
+    border-style: none;
+    width: 30%;
+    font-weight: 400;
+
+}
+
+.AllCta .CTAButtons .primaryButton  {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-left: 1rem;
+}
+
+
+.AllCta h3{
+    margin: 1rem;
+    
+}
+
+.AllCta h5{
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    
+}
+
+footer {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 7.5rem;
+    margin-top: 6.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .izqFooter .logoImg {
+    height: 30px;
+    margin-bottom: 0.5rem;
+}
+
+footer .izqFooter {
+    width: 50%;
+}
+
+.address {
+    color: #6B708D;
+    font-size: 17px;
+}
+
+footer .derFooter {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .derFooter .buttonList {
+    list-style: none;
+}
+
+.footerButton {
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    color: #6B708D;
+}
+
+
+/* PROJECT PAGE HERE */
+
+
+#project {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+}
+
+#project .subtitle {
+    display: flexbox;
+    justify-content: space-around;
+}
+
+
+.coverProject {
+    object-fit: cover;
+    width: 100%;
+    height: 444px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 10px 50px 0 rgba(204, 24, 192, 0.2);
+}
+
+/* CONTACT US PAGE HERE */
+
+#contact-Us {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+    margin-bottom: 16rem;
+}
+
+
+ input  {
+    padding-top: 1.375rem;
+    padding-bottom: 1.375rem;
+    padding-left: 1.25rem;
+    border: none;
+    border-radius: 0;
+    background-color: #e7e9f1;
+    font-size: 17px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+
+
+label {
+    font-size: 1.25rem;
+    color: #6B708D;
+}
+
+
+
+
+.contentFlex {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem
+;
+}
+
+.contentFlexRight {
+    width: 100%;
+
+}
+
+.contentFlexLeft {
+    width: 100%;
+
+}
+
+.contentFlexRight input {
+    width: 100%;
+}
+
+.contentFlexLeft input {
+    width: 100%;
+}
+
+.formcontent .primaryButton {
+
+
+}
+
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 14px;
+    }
+    }
+
+
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    body{
+        background-color: #292E47;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    h3 {
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+
+    .primaryButton {
+        border-radius: 8px;
+        box-shadow: 0 4px 20px 0 rgba(0, 1, 3, 0.2);
+    }
+
+    .tertiaryButton {
+        color: white;
+        border-bottom: 1px white;
+    }
+
+    .navBar .contentNavBar {
+        background-color: rgba(41,46,71, 0.9)
+    }
+
+    .logoImg {
+        filter: brightness(400%);
+    }
+
+    #hero-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 900px;
+        margin-bottom: 4rem;
+        margin-top: 8rem;   
+    }
+
+    .AllImages {
+        height: 80vw;
+    
+    }
+
+    .heroContentIzq {
+        width: 100%;
+   
+        }
+
+    .heroContentDer {
+        width: 100%; 
+        margin-top: 4rem;
+    }
+
+
+    #clients  {
+        margin-top: 12rem;
+        margin-bottom: 4rem;
+      
+    }
+    #clients .logo  {
+        margin: 2rem;
+        filter: brightness(200%) ;
+    }
+
+    #projects {
+        margin-top: 6rem;
+    }
+
+    .articleCard {
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .articleCard p {
+        color: black;
+    }
+
+    .cardService p {
+        color: black;
+    }
+
+    .positionTestimonial {
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .testimonialText .testimonialTitle {
+        padding-left: 3rem ;
+        padding-right: 3rem ;
+    }
+
+    .testimonialText .testimonialSubTitle {
+        padding-left: 3rem ;
+        padding-right: 3rem ;
+    }
+
+
+    #CTA {
+        margin-top: 12rem;
+        margin-bottom: 6rem;
+    }
+
+    .AllCta .CTAButtons input {
+    border-radius: 8px;
+    }
+
+    .AllCta h3 {
+        color: #292E47;
+    }
+
+    footer .derFooter .footerButton {
+        color: white;
+    }
+    
+    .address {
+        color: white;
+    }
+    
+/*PROJECT HERE*/
+    
+    #project h1 {
+        margin-top: 8rem;
+        }
+
+    #project p  {
+        color: white;
+    }
+
+    #project h4 {
+        color: white;
+    }
+
+    #project h5 {
+        color: white;
+    }
+
+    #contact-Us {
+        margin-top: 8rem;
+       
+      }
+  
+    /*CONTACT-US HERE*/
+
+    .formcontent input  {
+        background-color: #383d57;
+        border-radius: 8px;
+        border-color: #4f5883;
+        border-style: outset;
+    }
+
+    .formcontent label, .fphone, .femail, .fname, .fmessage {
+        color: #ffffff;
+    }
+    #submitButton {
+        background-color: #072AC8;
+    }
+}
+
+@media (max-width: 392px) {
+    html {
+        font-size: 12px;
+    }
+
+    body{
+        background-color: #292E47;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    h3 {
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+
+    .primaryButton {
+        border-radius: 8px;
+        box-shadow: 0 4px 20px 0 rgba(0, 1, 3, 0.2);
+    }
+
+    .tertiaryButton {
+        color: white;
+        border-bottom: 1px white;
+    }
+
+    .menu {
+        display: none;
+       /* display: flex;
+        flex-direction: column;*/
+    }
+
+    .navBar {
+        
+    }
+
+    .navBar .contentNavBar {
+        background-color: rgba(41,46,71, 0.9)
+    }
+
+    .logoImg {
+        filter: brightness(400%);
+    }
+
+    #hero-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 900px;
+        margin-bottom: 4rem;
+        margin-top: 5rem;
+      
+    }
+
+    .AllImages {
+        height: 80vw;
+    
+    }
+
+    .heroContentIzq {
+        width: 100%;
+   
+        }
+
+    .heroContentDer {
+        width: 100%; 
+        margin-top: 4rem;
+    }
+
+
+    #clients  {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      
+    }
+    #clients .logo  {
+        margin: 2rem;
+        filter: brightness(200%) ;
+    }
+
+    #projects {
+        margin-top: 6rem;
+    }
+
+    .articleCard {
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .articleCard p {
+        color: black;
+    }
+
+    .cardService p {
+        color: black;
+    }
+
+    .testimonialText .testimonialTitle {
+        padding-left: 3rem ;
+        padding-right: 3rem ;
+    }
+
+    .testimonialText .testimonialSubTitle {
+        padding-left: 3rem ;
+        padding-right: 3rem ;
+    }
+
+    .positionTestimonial {
+
+    }
+
+    .AllCta {
+   height: 30rem;
+     
+    }
+
+    .CTAButtons {
+    height: 40%;
+    }
+
+    .CTAButtons .primaryButton {
+        margin-top: 2rem;
+    }
+
+    #CTA {
+        margin-top: 12rem;
+        margin-bottom: 6rem;
+    }
+
+    .AllCta .CTAButtons input {
+        padding-left:5rem;
+        padding-top: 1.875rem;
+        padding-bottom: 1.875rem;
+        width: 70%; 
+        background-color: white;
+        border-style: none;
+        font-weight: 400;
+   
+      
+    }
+
+    .AllCta .CTAButtons .primaryButton  {
+        padding-top: 1.875rem;
+        padding-bottom: 1.875rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+     
+        margin-left: 0;
+        width: 40%;
+
+    }
+
+    .AllCta h3 {
+        color: #292E47;
+    }
+
+    footer .izqFooter {
+        width: 100%;
+  
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        
+    }
+
+    footer .derFooter {
+        width: 0;
+    }
+    
+    footer .derFooter .buttonList {
+        padding-left: 0;
+        padding-right: 4rem; 
+    }
+        
+    footer .derFooter .footerButton {
+        color: white;
+    }
+    
+    .address {
+        color: white;
+    }
+
+    #submitButton {
+        background-color: #072AC8;
+    }
+
+/*PROJECT HERE*/
+    
+    #project h1 {
+           margin-top: 8rem;
+        }
+
+    #project p {
+        color: white;
+    }
+
+    #project h4 {
+        color: white;
+    }
+
+    #project h5 {
+        color: white;
+    }
+
+/*CONTACT-US HERE*/
+    
+    #contact-Us {
+      margin-top: 8rem;
+     
+    }
+
+
+    .formcontent input  {
+        background-color: #383d57;
+        border-radius: 8px;
+        border-color: #4f5883;
+        border-style: outset;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        color: white;
+      }
+
+      .formcontent label, .fphone, .femail, .fname, .fmessage {
+        color: #ffffff;
+    }
+
+}
+
+
+
+
